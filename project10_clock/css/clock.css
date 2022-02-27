@@ -1,0 +1,63 @@
+.circle{
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80vh;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 50%;
+    display:block;
+    position:absolute;
+    top:4rem;
+    position: relative;
+}
+.num1,.num2,.num3,.num4.num5,.num6,.num7,.num8,.num9,.num10,.num11,.num12{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.num12{
+    top: 1rem;
+    left: 17rem;
+}
+.num6{
+    top: 34rem;
+    left: 17rem;
+}
+.num3{
+    top: 16rem;
+    left: 35rem;
+}
+.num9{
+    top: 15rem;
+    left: 1rem;
+}
+
+
+
+#hou,#minut,#secon{
+    position: absolute;
+    background-color: black;
+    transform-origin: bottom;
+}
+#hou{
+    width: 1%;
+    height: 24%;
+    top: 17%;
+    left: 48%
+}
+#minut{
+  width: 1%;
+  height: 30%;
+  top: 11%;
+  left: 48%;
+ 
+}
+
+#secon{
+    width: 1%;
+    height: 30%;
+    top: 11%;
+    left: 48%;
+    background-color: rgb(212, 16, 16);
+}
